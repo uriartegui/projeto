@@ -1,39 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
-   <head>
-      <meta charset="UTF-8" />
-      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      <title>Guilherme</title>
-      <link rel="stylesheet" href="style.css" />
-   </head>
-   <body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Guilherme</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div class="wrapper">
       <header>
-         <div class="logo">Guilherme</div>
-         <nav>
-            <ul class="nav-links">
-               <li><a href="#" class="active">Home</a></li>
-               <li><a href="#">About</a></li>
-               <li><a href="#">Skills</a></li>
-               <li><a href="#">Works</a></li>
-               <li><a href="#">Contact</a></li>
-            </ul>
-         </nav>
+        <div class="logo">Guilherme</div>
+        <nav>
+         <ul class="nav-links">
+            <li><a href="#home" class="active">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#works">Works</a></li>
+            <li><a href="#contact">Contact</a></li>
+         </ul>
+        </nav>
       </header>
-      <main class="hero-section">
-         <div class="hero-text">
-            <h1>Hi,<br>I’m <span>Guilherme</span><br>Web Designer</h1>
-            <a href="#" class="btn">Contact</a>
-            <div class="social-icons">
-               <a href="#"><img src="icons/linkedin.svg" alt="LinkedIn"></a>
-               <a href="#"><img src="icons/instagram.svg" alt="Instagram"></a>
-               <a href="#"><img src="icons/github.svg" alt="GitHub"></a>
-            </div>
-         </div>
-         <div class="hero-image">
-            <div class="image-shape">
-               <img src="img/profile.png" alt="Foto de Guilherme">
-            </div>
-         </div>
+
+      <!-- Home -->
+      <main id="home" class="hero-section section">
+        <div class="hero-text">
+          <h1>Hi,<br />I’m <span>Guilherme</span><br />Web Designer</h1>
+          <a href="#contact" class="btn">Contact</a>
+          <div class="social-icons">
+            <a href="#"><img src="icons/linkedin.svg" alt="LinkedIn" /></a>
+            <a href="#"><img src="icons/instagram.svg" alt="Instagram" /></a>
+            <a href="#"><img src="icons/github.svg" alt="GitHub" /></a>
+          </div>
+        </div>
+        <div class="hero-image">
+          <div class="image-shape">
+            <img src="img/profile.png" alt="Foto de Guilherme" />
+          </div>
+        </div>
       </main>
-   </body>
+
+      <!-- About -->
+      <section id="about" class="section">
+        <h2>About</h2>
+        <p>Sobre mim...</p>
+      </section>
+
+      <!-- Skills -->
+      <section id="skills" class="section">
+        <h2>Skills</h2>
+        <p>HTML, CSS, JavaScript...</p>
+      </section>
+
+      <!-- Works -->
+      <section id="works" class="section">
+        <h2>Works</h2>
+        <p>Meus projetos...</p>
+      </section>
+
+      <!-- Contact -->
+      <section id="contact" class="section">
+        <h2>Contact</h2>
+        <p>Email: exemplo@email.com</p>
+      </section>
+
+    </div>
+  </body>
 </html>
