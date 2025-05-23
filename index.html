@@ -1,70 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Guilherme</title>
-    <link rel="stylesheet" href="style.css" />
-    <script src="script.js" defer></script>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-  </head>
-  <body>
-    <div class="wrapper">
-      <header>
-        <div class="logo">Guilherme</div>
-        <nav>
-         <ul class="nav-links">
-            <li><a href="#home" class="active">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#works">Works</a></li>
-            <li><a href="#contact">Contact</a></li>
-         </ul>
-        </nav>
-      </header>
 
-      <!-- Home -->
-      <main id="home" class="hero-section section">
-        <div class="hero-text">
-          <h1>Hi,<br />I’m <span>Guilherme</span><br />Web Designer</h1>
-          <a href="#contact" class="btn">Contact</a>
-          <div class="social-icons">
-            <a href="#"><img src="icons/linkedin.svg" alt="LinkedIn" /></a>
-            <a href="#"><img src="icons/instagram.svg" alt="Instagram" /></a>
-            <a href="#"><img src="icons/github.svg" alt="GitHub" /></a>
-          </div>
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Guilherme</title>
+	<link rel="stylesheet" href="style.css" />
+	<script src="script.js" defer></script>
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header>
+			<div class="logo">
+				<img src="icons/icon-logo.svg" alt="Ícone" class="icon">
+				<strong class="name">Guilherme</strong>
+				<span class="divider">/</span>
+				<span class="role">DEVELOPER</span>
+			</div>
+			<nav>
+				<ul class="nav-links">
+					<li><a href="#home" class="active">Home</a></li>
+					<li><a href="#about">About</a></li>
+					<li><a href="#skills">Skills</a></li>
+					<li><a href="#works">Works</a></li>
+					<li><a href="#contact">Contact</a></li>
+				</ul>
+			</nav>
+		</header>
+		<!-- Home -->
+		<main id="home" class="hero-section section">
+			<div class="hero-text">
+				<h1>Hi,<br />I’m <span>Guilherme</span><br />Web Designer</h1>
+				<a href="#contact" class="btn">Contact</a>
+				<div class="social-icons">
+					<a href="#"><img src="icons/linkedin.svg" alt="LinkedIn" /></a>
+					<a href="#"><img src="icons/instagram.svg" alt="Instagram" /></a>
+					<a href="#"><img src="icons/github.svg" alt="GitHub" /></a>
+				</div>
+			</div>
+			<div class="hero-image">
+				<div class="image-shape">
+					<img src="img/profile.png" alt="Foto de Guilherme" />
+				</div>
+			</div>
+		</main>
+		<!-- About -->
+<section id="about" class="section">
+  <div class="about-container">
+    <div class="about-left">
+      <div class="about-profile-card">
+        <img src="img/profile.png" alt="Guilherme" class="about-photo" />
+        <h3 class="about-name">Guilherme</h3>
+        <p class="about-role">DEVELOPER</p>
+        <div class="about-buttons">
+          <a href="#" class="about-button">CURRÍCULO</a>
+          <a href="#" class="about-button">PROJETOS</a>
         </div>
-        <div class="hero-image">
-          <div class="image-shape">
-            <img src="img/profile.png" alt="Foto de Guilherme" />
-          </div>
-        </div>
-      </main>
-
-      <!-- About -->
-      <section id="about" class="section">
-        <h2>About</h2>
-        <p>Sobre mim...</p>
-      </section>
-
-      <!-- Skills -->
-      <section id="skills" class="section">
-        <h2>Skills</h2>
-        <p>HTML, CSS, JavaScript...</p>
-      </section>
-
-      <!-- Works -->
-      <section id="works" class="section">
-        <h2>Works</h2>
-        <p>Meus projetos...</p>
-      </section>
-
-      <!-- Contact -->
-      <section id="contact" class="section">
-        <h2>Contact</h2>
-        <p>Email: exemplo@email.com</p>
-      </section>
-
+      </div>
     </div>
-  </body>
+    <div class="about-right">
+      <h2 class="about-title">Sobre Mim</h2>
+      <div class="about-text">
+        <p>Sou um desenvolvedor apaixonado por tecnologia, com foco em criar interfaces modernas, responsivas e funcionais. Tenho experiência com diversas linguagens e ferramentas, e gosto de transformar ideias em soluções reais.</p>
+        <p>Estou sempre aprendendo e buscando novas formas de melhorar minhas habilidades e entregar o melhor resultado possível.</p>
+      </div>
+    </div>
+  </div>
+</section>
+		<!-- Skills -->
+		<section id="skills" class="section">
+			<h2>Skills</h2>
+			<p>HTML, CSS, JavaScript...</p>
+		</section>
+		<!-- Works -->
+		<section id="works" class="section">
+			<h2>Works</h2>
+			<p>Meus projetos...</p>
+		</section>
+		<!-- Contact -->
+		<section id="contact" class="section">
+			<h2>Contact</h2>
+			<p>Email: exemplo@email.com</p>
+		</section>
+	</div>
+</body>
+
 </html>
